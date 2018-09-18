@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+
+var temp = null;
+var authen_code = "756d2a34-d323-43d6-8a93-50a4afc1bb98";
+if (authen_code!==null){
+    console.log(authen_code);
+    $.ajax({
+        url: "https://mychatbox.auth.us-west-2.amazoncognito.com/oauth2/token",
+        
+        async: false,//syncro
+        type: "POST",
+        data: { "Content-Type" : 'application/x-www-form-urlencoded' ,
+
+                "grant_type" : "authorization_code",
+                "client_id" : "1pv4jeul0797b5l7ie56ei21j5",
+                "code": authen_code,
+                "redirect_uri": "https://s3-us-west-2.amazonaws.com/mychatbox/chat.html"}, /*update needed*/
+        success: function (courseDT4) {
+            temp = courseDT4;
+        }
+    });
+    
+}
+console.log("The first part is finished");
+if (temp!==null) {
+    access_token = temp["access_token"];
+    console.log("access_token:" + access_token);
+    id_token = temp["id_token"];
+    console.log("id_token:" + access_token);
+}
+console.log("This part is finished");
+
+</script>
+</head>
+<body>
+
+<button>Send an HTTP POST request to a page and get the result back</button>
+
+</body>
+</html>
+
