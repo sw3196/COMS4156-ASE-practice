@@ -1,0 +1,843 @@
+************* Module hw2.eval_parser
+hw2/eval_parser.py:31:0: E0001: invalid syntax (<unknown>, line 31) (syntax-error)
+************* Module hw2.parser6
+hw2/parser6.py:25:0: C0301: Line too long (115/100) (line-too-long)
+hw2/parser6.py:27:90: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:30:38: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:31:0: C0301: Line too long (107/100) (line-too-long)
+hw2/parser6.py:39:0: C0301: Line too long (115/100) (line-too-long)
+hw2/parser6.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:55:0: C0301: Line too long (110/100) (line-too-long)
+hw2/parser6.py:61:0: C0301: Line too long (106/100) (line-too-long)
+hw2/parser6.py:82:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:83:113: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:83:0: C0301: Line too long (113/100) (line-too-long)
+hw2/parser6.py:84:105: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:84:0: C0301: Line too long (105/100) (line-too-long)
+hw2/parser6.py:85:0: C0301: Line too long (112/100) (line-too-long)
+hw2/parser6.py:86:0: C0301: Line too long (116/100) (line-too-long)
+hw2/parser6.py:92:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:102:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:104:16: C0326: Exactly one space required after comma
+def main(devFile,outputFile):
+                ^ (bad-whitespace)
+hw2/parser6.py:105:14: C0326: No space allowed before bracket
+    with open (outputFile, 'w') as outputFile:
+              ^ (bad-whitespace)
+hw2/parser6.py:107:43: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:109:55: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:118:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser6.py:129:0: C0305: Trailing newlines (trailing-newlines)
+hw2/parser6.py:1:0: C0111: Missing module docstring (missing-docstring)
+hw2/parser6.py:19:0: C0103: Function name "grammarRules" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:19:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser6.py:21:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:27:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:48:0: C0103: Function name "PCFG" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:48:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser6.py:48:0: R0914: Too many local variables (19/15) (too-many-locals)
+hw2/parser6.py:49:4: C0103: Variable name "pi" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:50:4: C0103: Variable name "bp" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:60:12: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:64:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:67:16: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:69:20: C0103: Variable name "YZ" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:70:20: C0103: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:71:20: C0103: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:72:24: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:64:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+hw2/parser6.py:83:4: C0103: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:85:12: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:88:20: C0103: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:89:20: C0103: Variable name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:91:8: C0103: Variable name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:48:0: R0912: Too many branches (17/12) (too-many-branches)
+hw2/parser6.py:96:0: C0103: Argument name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:96:0: C0103: Argument name "bp" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:96:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser6.py:97:11: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:100:5: C0103: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:100:8: C0103: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:100:11: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:104:0: C0103: Argument name "devFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:104:0: C0103: Argument name "outputFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:104:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser6.py:105:35: R1704: Redefining argument with the local name 'outputFile' (redefined-argument-from-local)
+hw2/parser6.py:106:12: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser6.py:111:0: C0111: Missing function docstring (missing-docstring)
+************* Module hw2.count_cfg_freq
+hw2/count_cfg_freq.py:20:0: E0001: Missing parentheses in call to 'print'. Did you mean print(print count, "NONTERMINAL", symbol)? (<unknown>, line 20) (syntax-error)
+************* Module hw2.parser
+hw2/parser.py:9:10: C0326: Exactly one space required around assignment
+__author__="Shenxiu Wu <sw3196@.columbia.edu>"
+          ^ (bad-whitespace)
+hw2/parser.py:19:40: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:21:7: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:21:7: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:23:94: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:25:108: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:25:0: C0301: Line too long (108/100) (line-too-long)
+hw2/parser.py:26:0: C0301: Line too long (106/100) (line-too-long)
+hw2/parser.py:37:53: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:43:0: C0301: Line too long (119/100) (line-too-long)
+hw2/parser.py:46:26: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:48:0: C0301: Line too long (129/100) (line-too-long)
+hw2/parser.py:56:19: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:58:0: C0301: Line too long (148/100) (line-too-long)
+hw2/parser.py:60:18: C0326: No space allowed before bracket
+        with open (sys.argv[3], 'w') as outputFile:
+                  ^ (bad-whitespace)
+hw2/parser.py:65:61: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:70:108: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:70:0: C0301: Line too long (108/100) (line-too-long)
+hw2/parser.py:81:26: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:82:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:90:0: C0301: Line too long (119/100) (line-too-long)
+hw2/parser.py:92:94: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:95:42: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:96:0: C0301: Line too long (111/100) (line-too-long)
+hw2/parser.py:104:0: C0301: Line too long (119/100) (line-too-long)
+hw2/parser.py:105:0: C0301: Line too long (109/100) (line-too-long)
+hw2/parser.py:111:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:112:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:115:15: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:117:0: C0301: Line too long (103/100) (line-too-long)
+hw2/parser.py:120:0: C0301: Line too long (114/100) (line-too-long)
+hw2/parser.py:126:0: C0301: Line too long (115/100) (line-too-long)
+hw2/parser.py:127:25: C0326: Exactly one space required after comma
+                    pi[(i,i,X)] = self.q[(X,star_sentence[i])]
+                         ^ (bad-whitespace)
+hw2/parser.py:127:27: C0326: Exactly one space required after comma
+                    pi[(i,i,X)] = self.q[(X,star_sentence[i])]
+                           ^ (bad-whitespace)
+hw2/parser.py:127:43: C0326: Exactly one space required after comma
+                    pi[(i,i,X)] = self.q[(X,star_sentence[i])]
+                                           ^ (bad-whitespace)
+hw2/parser.py:137:40: C0326: Exactly one space required after comma
+                        for s in range(i,j):
+                                        ^ (bad-whitespace)
+hw2/parser.py:138:34: C0326: Exactly one space required after comma
+                            if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                  ^ (bad-whitespace)
+hw2/parser.py:138:36: C0326: Exactly one space required after comma
+                            if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                    ^ (bad-whitespace)
+hw2/parser.py:138:54: C0326: Exactly one space required after comma
+                            if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                                      ^ (bad-whitespace)
+hw2/parser.py:138:56: C0326: Exactly one space required after comma
+                            if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                                        ^ (bad-whitespace)
+hw2/parser.py:139:50: C0326: Exactly one space required after comma
+                                result = self.q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                  ^ (bad-whitespace)
+hw2/parser.py:139:52: C0326: Exactly one space required after comma
+                                result = self.q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                    ^ (bad-whitespace)
+hw2/parser.py:139:62: C0326: Exactly one space required after comma
+                                result = self.q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                              ^ (bad-whitespace)
+hw2/parser.py:139:64: C0326: Exactly one space required after comma
+                                result = self.q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                                ^ (bad-whitespace)
+hw2/parser.py:139:76: C0326: Exactly one space required after comma
+                                result = self.q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                                            ^ (bad-whitespace)
+hw2/parser.py:139:78: C0326: Exactly one space required after comma
+                                result = self.q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                                              ^ (bad-whitespace)
+hw2/parser.py:140:44: C0326: Exactly one space required after comma
+                                score_dic[(X,Y,Z,i,s,j)] = result
+                                            ^ (bad-whitespace)
+hw2/parser.py:140:46: C0326: Exactly one space required after comma
+                                score_dic[(X,Y,Z,i,s,j)] = result
+                                              ^ (bad-whitespace)
+hw2/parser.py:140:48: C0326: Exactly one space required after comma
+                                score_dic[(X,Y,Z,i,s,j)] = result
+                                                ^ (bad-whitespace)
+hw2/parser.py:140:50: C0326: Exactly one space required after comma
+                                score_dic[(X,Y,Z,i,s,j)] = result
+                                                  ^ (bad-whitespace)
+hw2/parser.py:140:52: C0326: Exactly one space required after comma
+                                score_dic[(X,Y,Z,i,s,j)] = result
+                                                    ^ (bad-whitespace)
+hw2/parser.py:144:29: C0326: Exactly one space required after comma
+                        pi[(i,j,X)] = max_value
+                             ^ (bad-whitespace)
+hw2/parser.py:144:31: C0326: Exactly one space required after comma
+                        pi[(i,j,X)] = max_value
+                               ^ (bad-whitespace)
+hw2/parser.py:146:29: C0326: Exactly one space required after comma
+                        bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                             ^ (bad-whitespace)
+hw2/parser.py:146:31: C0326: Exactly one space required after comma
+                        bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                               ^ (bad-whitespace)
+hw2/parser.py:146:46: C0326: Exactly one space required after comma
+                        bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                                              ^ (bad-whitespace)
+hw2/parser.py:146:54: C0326: Exactly one space required after comma
+                        bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                                                      ^ (bad-whitespace)
+hw2/parser.py:147:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:148:117: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:148:0: C0301: Line too long (117/100) (line-too-long)
+hw2/parser.py:149:107: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:149:0: C0301: Line too long (107/100) (line-too-long)
+hw2/parser.py:149:13: C0326: Exactly one space required after comma
+        if (1,len(sentence),"S") not in pi: #in corpus are fragments, and they do not have 'S' as the root. 
+             ^ (bad-whitespace)
+hw2/parser.py:149:27: C0326: Exactly one space required after comma
+        if (1,len(sentence),"S") not in pi: #in corpus are fragments, and they do not have 'S' as the root. 
+                           ^ (bad-whitespace)
+hw2/parser.py:150:0: C0301: Line too long (121/100) (line-too-long)
+hw2/parser.py:151:0: C0301: Line too long (118/100) (line-too-long)
+hw2/parser.py:151:21: C0326: Exactly one space required after comma
+                if (1,len(sentence),X) in pi: #on all non-terminals, i.e.return max pi[(1,n,X)], where X belongs to NT
+                     ^ (bad-whitespace)
+hw2/parser.py:151:35: C0326: Exactly one space required after comma
+                if (1,len(sentence),X) in pi: #on all non-terminals, i.e.return max pi[(1,n,X)], where X belongs to NT
+                                   ^ (bad-whitespace)
+hw2/parser.py:152:28: C0326: Exactly one space required after comma
+                    if pi[(1,len(sentence),X)] > mm:
+                            ^ (bad-whitespace)
+hw2/parser.py:152:42: C0326: Exactly one space required after comma
+                    if pi[(1,len(sentence),X)] > mm:
+                                          ^ (bad-whitespace)
+hw2/parser.py:153:34: C0326: Exactly one space required after comma
+                        mm = pi[(1,len(sentence),X)]
+                                  ^ (bad-whitespace)
+hw2/parser.py:153:48: C0326: Exactly one space required after comma
+                        mm = pi[(1,len(sentence),X)]
+                                                ^ (bad-whitespace)
+hw2/parser.py:154:34: C0326: Exactly one space required after comma
+                        tbKey = (1,len(sentence),X)
+                                  ^ (bad-whitespace)
+hw2/parser.py:154:48: C0326: Exactly one space required after comma
+                        tbKey = (1,len(sentence),X)
+                                                ^ (bad-whitespace)
+hw2/parser.py:156:22: C0326: Exactly one space required after comma
+            tbKey = (1,len(sentence),"S")
+                      ^ (bad-whitespace)
+hw2/parser.py:156:36: C0326: Exactly one space required after comma
+            tbKey = (1,len(sentence),"S")
+                                    ^ (bad-whitespace)
+hw2/parser.py:157:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:159:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:161:0: C0301: Line too long (103/100) (line-too-long)
+hw2/parser.py:163:12: C0326: Exactly one space required around comparison
+        if i==j:
+            ^^ (bad-whitespace)
+hw2/parser.py:165:10: C0326: Exactly one space required after comma
+        (Y,Z,s) = bp[(i,j,X)]
+          ^ (bad-whitespace)
+hw2/parser.py:165:12: C0326: Exactly one space required after comma
+        (Y,Z,s) = bp[(i,j,X)]
+            ^ (bad-whitespace)
+hw2/parser.py:165:23: C0326: Exactly one space required after comma
+        (Y,Z,s) = bp[(i,j,X)]
+                       ^ (bad-whitespace)
+hw2/parser.py:165:25: C0326: Exactly one space required after comma
+        (Y,Z,s) = bp[(i,j,X)]
+                         ^ (bad-whitespace)
+hw2/parser.py:166:0: C0301: Line too long (106/100) (line-too-long)
+hw2/parser.py:166:36: C0326: Exactly one space required after comma
+        return [X, self.backtrace((i,s,Y),star_sentence, bp), self.backtrace((s+1,j,Z),star_sentence, bp)]
+                                    ^ (bad-whitespace)
+hw2/parser.py:166:38: C0326: Exactly one space required after comma
+        return [X, self.backtrace((i,s,Y),star_sentence, bp), self.backtrace((s+1,j,Z),star_sentence, bp)]
+                                      ^ (bad-whitespace)
+hw2/parser.py:166:41: C0326: Exactly one space required after comma
+        return [X, self.backtrace((i,s,Y),star_sentence, bp), self.backtrace((s+1,j,Z),star_sentence, bp)]
+                                         ^ (bad-whitespace)
+hw2/parser.py:166:81: C0326: Exactly one space required after comma
+        return [X, self.backtrace((i,s,Y),star_sentence, bp), self.backtrace((s+1,j,Z),star_sentence, bp)]
+                                                                                 ^ (bad-whitespace)
+hw2/parser.py:166:83: C0326: Exactly one space required after comma
+        return [X, self.backtrace((i,s,Y),star_sentence, bp), self.backtrace((s+1,j,Z),star_sentence, bp)]
+                                                                                   ^ (bad-whitespace)
+hw2/parser.py:166:86: C0326: Exactly one space required after comma
+        return [X, self.backtrace((i,s,Y),star_sentence, bp), self.backtrace((s+1,j,Z),star_sentence, bp)]
+                                                                                      ^ (bad-whitespace)
+hw2/parser.py:167:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:168:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:169:26: C0326: Exactly one space required after comma
+    def main(self, devFile,outputFile):
+                          ^ (bad-whitespace)
+hw2/parser.py:170:18: C0326: No space allowed before bracket
+        with open (outputFile, 'w') as outputFile:
+                  ^ (bad-whitespace)
+hw2/parser.py:172:47: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:174:59: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:175:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:190:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser.py:229:0: C0305: Trailing newlines (trailing-newlines)
+hw2/parser.py:1:0: C0111: Missing module docstring (missing-docstring)
+hw2/parser.py:9:0: C0103: Constant name "__author__" doesn't conform to '[a-zA-Z][a-zA-Z0-9\\_]{0,30}$' pattern (invalid-name)
+hw2/parser.py:16:0: C0103: Class name "q4" doesn't conform to PascalCase naming style (invalid-name)
+hw2/parser.py:27:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:28:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:40:8: C0103: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:41:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:43:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+hw2/parser.py:35:16: W0612: Unused variable 'tag' (unused-variable)
+hw2/parser.py:27:4: R0201: Method could be a function (no-self-use)
+hw2/parser.py:49:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:58:4: C0103: Argument name "countFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:58:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:60:40: C0103: Variable name "outputFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:61:16: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:67:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:67:4: R0201: Method could be a function (no-self-use)
+hw2/parser.py:74:0: C0103: Class name "q5_6" doesn't conform to PascalCase naming style (invalid-name)
+hw2/parser.py:77:8: C0103: Attribute name "q" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:78:8: C0103: Attribute name "NT" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:79:8: C0103: Attribute name "unaryRule" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:80:8: C0103: Attribute name "binaryRule" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:74:0: C0111: Missing class docstring (missing-docstring)
+hw2/parser.py:84:4: C0103: Method name "grammarRules" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:84:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:86:12: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:92:12: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:113:4: C0103: Method name "PCFG" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:113:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:113:4: R0914: Too many local variables (21/15) (too-many-locals)
+hw2/parser.py:114:8: C0103: Variable name "pi" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:115:8: C0103: Variable name "bp" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:125:16: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:129:12: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:132:20: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:134:24: C0103: Variable name "YZ" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:135:24: C0103: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:136:24: C0103: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:137:28: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:129:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+hw2/parser.py:148:8: C0103: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:150:16: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:153:24: C0103: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:154:24: C0103: Variable name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:156:12: C0103: Variable name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:113:4: R0912: Too many branches (17/12) (too-many-branches)
+hw2/parser.py:161:4: C0103: Argument name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:161:4: C0103: Argument name "bp" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:161:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:162:15: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:165:9: C0103: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:165:11: C0103: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:165:13: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:169:4: C0103: Argument name "devFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:169:4: C0103: Argument name "outputFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:169:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:170:39: R1704: Redefining argument with the local name 'outputFile' (redefined-argument-from-local)
+hw2/parser.py:171:16: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser.py:176:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:176:4: R0201: Method could be a function (no-self-use)
+hw2/parser.py:183:4: C0111: Missing method docstring (missing-docstring)
+hw2/parser.py:183:4: R0201: Method could be a function (no-self-use)
+hw2/parser.py:201:12: E1120: No value for argument 'self' in unbound method call (no-value-for-parameter)
+************* Module hw2.parser5
+hw2/parser5.py:25:0: C0301: Line too long (115/100) (line-too-long)
+hw2/parser5.py:27:90: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:30:38: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:31:0: C0301: Line too long (107/100) (line-too-long)
+hw2/parser5.py:39:0: C0301: Line too long (115/100) (line-too-long)
+hw2/parser5.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:55:0: C0301: Line too long (110/100) (line-too-long)
+hw2/parser5.py:61:0: C0301: Line too long (106/100) (line-too-long)
+hw2/parser5.py:62:21: C0326: Exactly one space required after comma
+                pi[(i,i,X)] = q[(X,star_sentence[i])]
+                     ^ (bad-whitespace)
+hw2/parser5.py:62:23: C0326: Exactly one space required after comma
+                pi[(i,i,X)] = q[(X,star_sentence[i])]
+                       ^ (bad-whitespace)
+hw2/parser5.py:62:34: C0326: Exactly one space required after comma
+                pi[(i,i,X)] = q[(X,star_sentence[i])]
+                                  ^ (bad-whitespace)
+hw2/parser5.py:72:36: C0326: Exactly one space required after comma
+                    for s in range(i,j):
+                                    ^ (bad-whitespace)
+hw2/parser5.py:73:30: C0326: Exactly one space required after comma
+                        if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                              ^ (bad-whitespace)
+hw2/parser5.py:73:32: C0326: Exactly one space required after comma
+                        if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                ^ (bad-whitespace)
+hw2/parser5.py:73:50: C0326: Exactly one space required after comma
+                        if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                                  ^ (bad-whitespace)
+hw2/parser5.py:73:52: C0326: Exactly one space required after comma
+                        if ((i,s,Y) in pi and (s+1,j,Z) in pi):
+                                                    ^ (bad-whitespace)
+hw2/parser5.py:74:41: C0326: Exactly one space required after comma
+                            result = q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                         ^ (bad-whitespace)
+hw2/parser5.py:74:43: C0326: Exactly one space required after comma
+                            result = q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                           ^ (bad-whitespace)
+hw2/parser5.py:74:53: C0326: Exactly one space required after comma
+                            result = q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                     ^ (bad-whitespace)
+hw2/parser5.py:74:55: C0326: Exactly one space required after comma
+                            result = q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                       ^ (bad-whitespace)
+hw2/parser5.py:74:67: C0326: Exactly one space required after comma
+                            result = q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                                   ^ (bad-whitespace)
+hw2/parser5.py:74:69: C0326: Exactly one space required after comma
+                            result = q[(X,Y,Z)]*pi[(i,s,Y)]*pi[(s+1,j,Z)]
+                                                                     ^ (bad-whitespace)
+hw2/parser5.py:75:40: C0326: Exactly one space required after comma
+                            score_dic[(X,Y,Z,i,s,j)] = result
+                                        ^ (bad-whitespace)
+hw2/parser5.py:75:42: C0326: Exactly one space required after comma
+                            score_dic[(X,Y,Z,i,s,j)] = result
+                                          ^ (bad-whitespace)
+hw2/parser5.py:75:44: C0326: Exactly one space required after comma
+                            score_dic[(X,Y,Z,i,s,j)] = result
+                                            ^ (bad-whitespace)
+hw2/parser5.py:75:46: C0326: Exactly one space required after comma
+                            score_dic[(X,Y,Z,i,s,j)] = result
+                                              ^ (bad-whitespace)
+hw2/parser5.py:75:48: C0326: Exactly one space required after comma
+                            score_dic[(X,Y,Z,i,s,j)] = result
+                                                ^ (bad-whitespace)
+hw2/parser5.py:79:25: C0326: Exactly one space required after comma
+                    pi[(i,j,X)] = max_value
+                         ^ (bad-whitespace)
+hw2/parser5.py:79:27: C0326: Exactly one space required after comma
+                    pi[(i,j,X)] = max_value
+                           ^ (bad-whitespace)
+hw2/parser5.py:81:25: C0326: Exactly one space required after comma
+                    bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                         ^ (bad-whitespace)
+hw2/parser5.py:81:27: C0326: Exactly one space required after comma
+                    bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                           ^ (bad-whitespace)
+hw2/parser5.py:81:42: C0326: Exactly one space required after comma
+                    bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                                          ^ (bad-whitespace)
+hw2/parser5.py:81:50: C0326: Exactly one space required after comma
+                    bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+                                                  ^ (bad-whitespace)
+hw2/parser5.py:82:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:83:113: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:83:0: C0301: Line too long (113/100) (line-too-long)
+hw2/parser5.py:84:103: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:84:0: C0301: Line too long (103/100) (line-too-long)
+hw2/parser5.py:84:9: C0326: Exactly one space required after comma
+    if (1,len(sentence),"S") not in pi: #in corpus are fragments, and they do not have 'S' as the root. 
+         ^ (bad-whitespace)
+hw2/parser5.py:84:23: C0326: Exactly one space required after comma
+    if (1,len(sentence),"S") not in pi: #in corpus are fragments, and they do not have 'S' as the root. 
+                       ^ (bad-whitespace)
+hw2/parser5.py:85:0: C0301: Line too long (112/100) (line-too-long)
+hw2/parser5.py:86:0: C0301: Line too long (114/100) (line-too-long)
+hw2/parser5.py:86:17: C0326: Exactly one space required after comma
+            if (1,len(sentence),X) in pi: #on all non-terminals, i.e.return max pi[(1,n,X)], where X belongs to NT
+                 ^ (bad-whitespace)
+hw2/parser5.py:86:31: C0326: Exactly one space required after comma
+            if (1,len(sentence),X) in pi: #on all non-terminals, i.e.return max pi[(1,n,X)], where X belongs to NT
+                               ^ (bad-whitespace)
+hw2/parser5.py:87:24: C0326: Exactly one space required after comma
+                if pi[(1,len(sentence),X)] > mm:
+                        ^ (bad-whitespace)
+hw2/parser5.py:87:38: C0326: Exactly one space required after comma
+                if pi[(1,len(sentence),X)] > mm:
+                                      ^ (bad-whitespace)
+hw2/parser5.py:88:30: C0326: Exactly one space required after comma
+                    mm = pi[(1,len(sentence),X)]
+                              ^ (bad-whitespace)
+hw2/parser5.py:88:44: C0326: Exactly one space required after comma
+                    mm = pi[(1,len(sentence),X)]
+                                            ^ (bad-whitespace)
+hw2/parser5.py:89:30: C0326: Exactly one space required after comma
+                    tbKey = (1,len(sentence),X)
+                              ^ (bad-whitespace)
+hw2/parser5.py:89:44: C0326: Exactly one space required after comma
+                    tbKey = (1,len(sentence),X)
+                                            ^ (bad-whitespace)
+hw2/parser5.py:91:18: C0326: Exactly one space required after comma
+        tbKey = (1,len(sentence),"S")
+                  ^ (bad-whitespace)
+hw2/parser5.py:91:32: C0326: Exactly one space required after comma
+        tbKey = (1,len(sentence),"S")
+                                ^ (bad-whitespace)
+hw2/parser5.py:92:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:98:8: C0326: Exactly one space required around comparison
+    if i==j:
+        ^^ (bad-whitespace)
+hw2/parser5.py:100:6: C0326: Exactly one space required after comma
+    (Y,Z,s) = bp[(i,j,X)]
+      ^ (bad-whitespace)
+hw2/parser5.py:100:8: C0326: Exactly one space required after comma
+    (Y,Z,s) = bp[(i,j,X)]
+        ^ (bad-whitespace)
+hw2/parser5.py:100:19: C0326: Exactly one space required after comma
+    (Y,Z,s) = bp[(i,j,X)]
+                   ^ (bad-whitespace)
+hw2/parser5.py:100:21: C0326: Exactly one space required after comma
+    (Y,Z,s) = bp[(i,j,X)]
+                     ^ (bad-whitespace)
+hw2/parser5.py:101:27: C0326: Exactly one space required after comma
+    return [X, backtrace((i,s,Y),star_sentence, bp), backtrace((s+1,j,Z),star_sentence, bp)]
+                           ^ (bad-whitespace)
+hw2/parser5.py:101:29: C0326: Exactly one space required after comma
+    return [X, backtrace((i,s,Y),star_sentence, bp), backtrace((s+1,j,Z),star_sentence, bp)]
+                             ^ (bad-whitespace)
+hw2/parser5.py:101:32: C0326: Exactly one space required after comma
+    return [X, backtrace((i,s,Y),star_sentence, bp), backtrace((s+1,j,Z),star_sentence, bp)]
+                                ^ (bad-whitespace)
+hw2/parser5.py:101:67: C0326: Exactly one space required after comma
+    return [X, backtrace((i,s,Y),star_sentence, bp), backtrace((s+1,j,Z),star_sentence, bp)]
+                                                                   ^ (bad-whitespace)
+hw2/parser5.py:101:69: C0326: Exactly one space required after comma
+    return [X, backtrace((i,s,Y),star_sentence, bp), backtrace((s+1,j,Z),star_sentence, bp)]
+                                                                     ^ (bad-whitespace)
+hw2/parser5.py:101:72: C0326: Exactly one space required after comma
+    return [X, backtrace((i,s,Y),star_sentence, bp), backtrace((s+1,j,Z),star_sentence, bp)]
+                                                                        ^ (bad-whitespace)
+hw2/parser5.py:102:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:104:16: C0326: Exactly one space required after comma
+def main(devFile,outputFile):
+                ^ (bad-whitespace)
+hw2/parser5.py:105:14: C0326: No space allowed before bracket
+    with open (outputFile, 'w') as outputFile:
+              ^ (bad-whitespace)
+hw2/parser5.py:107:43: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:109:55: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:117:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2/parser5.py:128:0: C0305: Trailing newlines (trailing-newlines)
+hw2/parser5.py:1:0: C0111: Missing module docstring (missing-docstring)
+hw2/parser5.py:19:0: C0103: Function name "grammarRules" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:19:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser5.py:21:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:27:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:48:0: C0103: Function name "PCFG" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:48:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser5.py:48:0: R0914: Too many local variables (19/15) (too-many-locals)
+hw2/parser5.py:49:4: C0103: Variable name "pi" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:50:4: C0103: Variable name "bp" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:60:12: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:64:8: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:67:16: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:69:20: C0103: Variable name "YZ" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:70:20: C0103: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:71:20: C0103: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:72:24: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:64:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+hw2/parser5.py:83:4: C0103: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:85:12: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:88:20: C0103: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:89:20: C0103: Variable name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:91:8: C0103: Variable name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:48:0: R0912: Too many branches (17/12) (too-many-branches)
+hw2/parser5.py:96:0: C0103: Argument name "tbKey" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:96:0: C0103: Argument name "bp" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:96:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser5.py:97:11: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:100:5: C0103: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:100:7: C0103: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:100:9: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:104:0: C0103: Argument name "devFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:104:0: C0103: Argument name "outputFile" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:104:0: C0111: Missing function docstring (missing-docstring)
+hw2/parser5.py:105:35: R1704: Redefining argument with the local name 'outputFile' (redefined-argument-from-local)
+hw2/parser5.py:106:12: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+hw2/parser5.py:111:0: C0111: Missing function docstring (missing-docstring)
+************* Module hw2.pretty_print_tree
+hw2/pretty_print_tree.py:37:0: E0001: invalid syntax (<unknown>, line 37) (syntax-error)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:6
+==hw2.parser6:6
+import sys
+import json
+import time
+
+#initialization
+q = {}
+NT = {}
+unaryRule = {}
+binaryRule = {}
+words = set()
+
+
+def grammarRules(counts_file):
+    # read counts file got from question 4 to calculate parameters we need for CKY algorithm
+    for l in open(counts_file):
+        line = l.strip()
+        if line:
+            segments = line.split(" ")
+            if "NONTERMINAL" in line: #Firstly we record all non-terminals & their counts in counts_file into a dic
+                NT[segments[2]] = int(segments[0])
+    for l in open(counts_file): # To calculate correctly, we need to take another for loop
+        line = l.strip()        # after above one has recorded all non-terminals
+        if line:
+            segments = line.split(" ")
+            if "UNARYRULE" in line: # According to the definition, parameter q(X->w) = Count(X->w)/Count(X)
+                q[(segments[2], segments[3])] = float(segments[0])/NT[segments[2]]
+                # add w to the unary rules dic of X
+                if segments[2] not in unaryRule:
+                    unaryRule[segments[2]] = {}
+                if segments[3] not in unaryRule[segments[2]]:
+                    unaryRule[segments[2]][segments[3]] = int(segments[0])
+                words.add(segments[3])  # add w to the words set
+            elif "BINARYRULE" in line: #According to the definition, parameter q(X->Y1Y2) = Count(X->Y1Y2)/Count(X)
+                q[(segments[2], segments[3], segments[4])] = float(segments[0])/NT[segments[2]]
+                # add (Y1, Y2) to the binary rules dic of X
+                if segments[2] not in binaryRule:
+                    binaryRule[segments[2]] = {}
+                if (segments[3], segments[4]) not in binaryRule[segments[2]]:
+                    binaryRule[segments[2]][(segments[3], segments[4])] = int(segments[0])
+
+
+def PCFG(sentence):
+    pi = {}
+    bp = {}
+
+    # According to CKY algorithm, i & j belongs to {1...n}, thus, to align the sentence with i & j,
+    # I add a star * to the head of sentence which makes the first character of sentence is s[1]
+    star_sentence = ['*'] + sentence
+    for i in range(1, len(sentence)+1): # check whether the word is unseen and if so, replace it with "_RARE_"
+        if star_sentence[i] not in words:
+            star_sentence[i] = "_RARE_"
+    # Cky algorithm initialization pi(i,i,X) = q(X->xi)
+    for i in range(1, len(sentence)+1):
+        for X in unaryRule:
+            if star_sentence[i] in unaryRule[X]:  # we need to firstly check whether the unary rule exists (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:74
+==hw2.parser:139
+                            score_dic[(X,Y,Z,i,s,j)] = result
+                if score_dic:
+                    max_value = max(score_dic.values())
+                    max_combination = [k for k, v in score_dic.items() if v == max_value]
+                    pi[(i,j,X)] = max_value
+                    temp = list(max_combination[0])
+                    bp[(i,j,X)] = (temp[1],temp[2],temp[4])  # back pointer, record Y,Z,s
+
+    mm = 0                   #Finally, we are expected to return pi[(1,n,'S')]. However, due to some of sentences
+    if (1,len(sentence),"S") not in pi: #in corpus are fragments, and they do not have 'S' as the root. (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:103
+==hw2.parser6:103
+def main(devFile,outputFile):
+    with open (outputFile, 'w') as outputFile:
+        for l in open(devFile):
+            sentence = l.strip().split(" ")
+            tree = PCFG(sentence)
+            outputFile.write("%s\n" % json.dumps(tree))
+
+def usage():
+    sys.stderr.write(""" (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:63
+==hw2.parser6:63
+    for l in range(1, len(sentence)):
+        for i in range(1, len(sentence)-l+1):
+            j = i + l
+            for X in binaryRule:
+                score_dic = {} # To store the probability of each combination
+                for YZ in binaryRule[X]:
+                    Y = YZ[0]
+                    Z = YZ[1] (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:85
+==hw2.parser:150
+            if (1,len(sentence),X) in pi: #on all non-terminals, i.e.return max pi[(1,n,X)], where X belongs to NT
+                if pi[(1,len(sentence),X)] > mm:
+                    mm = pi[(1,len(sentence),X)]
+                    tbKey = (1,len(sentence),X)
+    else:
+        tbKey = (1,len(sentence),"S")
+ (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:115
+==hw2.parser6:116
+        to evaluate the performance.\n""")
+
+if __name__ == "__main__":
+    time1 = time.time()
+    if len(sys.argv) != 5:
+        usage()
+        sys.exit(1) (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser6:111
+==hw2.parser:183
+    sys.stderr.write("""
+    Usage: firstly run: python parser.py q4 parse_train_vert.dat parse_train_vert.RARE.dat
+        Then: python parser.py q6 parse_train_vert.RARE.dat parse_dev.dat q6_prediction_file
+        The program is to use CKY algorithm parsing sentence in corpus_file.
+        After getting prediction file, use: python eval_parser.py parse_dev.key q6_prediction_file > q6_eval.txt
+        to evaluate the performance.\n""")
+ (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 2 files
+==hw2.parser5:111
+==hw2.parser:176
+    sys.stderr.write("""
+    Usage: python parser.py q5 parse_train.RARE.dat parse_dev.dat q5_prediction_file
+        The program is to use CKY algorithm parsing sentence in corpus_file.
+        After getting prediction file, use: python eval_parser.py parse_dev.key q5_prediction_file > q5_eval.txt
+        to evaluate the performance.\n""")
+ (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 3 files
+==hw2.parser5:26
+==hw2.parser6:26
+==hw2.parser:91
+    for l in open(counts_file): # To calculate correctly, we need to take another for loop
+        line = l.strip()        # after above one has recorded all non-terminals
+        if line:
+            segments = line.split(" ")
+            if "UNARYRULE" in line: # According to the definition, parameter q(X->w) = Count(X->w)/Count(X) (duplicate-code)
+hw2/pretty_print_tree.py:1:0: R0801: Similar lines in 3 files
+==hw2.parser5:20
+==hw2.parser6:20
+==hw2.parser:85
+    for l in open(counts_file):
+        line = l.strip()
+        if line:
+            segments = line.split(" ")
+            if "NONTERMINAL" in line: #Firstly we record all non-terminals & their counts in counts_file into a dic (duplicate-code)
+
+
+Report
+======
+345 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |NC         |NC         |25.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |50.00       |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |11     |NC         |NC         |9.09        |18.18    |
++---------+-------+-----------+-----------+------------+---------+
+|function |10     |NC         |NC         |0.00        |40.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |383    |76.75 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |5      |1.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |37     |7.41  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |74     |14.83 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+-------+---------+-----------+
+|                         |now    |previous |difference |
++=========================+=======+=========+===========+
+|nb duplicated lines      |129    |NC       |NC         |
++-------------------------+-------+---------+-----------+
+|percent duplicated lines |26.543 |NC       |NC         |
++-------------------------+-------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |321    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |26     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++----------------------+------+--------+---------+-----------+
+|module                |error |warning |refactor |convention |
++======================+======+========+=========+===========+
+|hw2.parser            |25.00 |100.00  |30.77    |47.66      |
++----------------------+------+--------+---------+-----------+
+|hw2.pretty_print_tree |25.00 |0.00    |38.46    |0.00       |
++----------------------+------+--------+---------+-----------+
+|hw2.eval_parser       |25.00 |0.00    |0.00     |0.00       |
++----------------------+------+--------+---------+-----------+
+|hw2.count_cfg_freq    |25.00 |0.00    |0.00     |0.00       |
++----------------------+------+--------+---------+-----------+
+|hw2.parser5           |0.00  |0.00    |15.38    |33.64      |
++----------------------+------+--------+---------+-----------+
+|hw2.parser6           |0.00  |0.00    |15.38    |18.69      |
++----------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------------+------------+
+|message id                    |occurrences |
++==============================+============+
+|bad-whitespace                |104         |
++------------------------------+------------+
+|invalid-name                  |94          |
++------------------------------+------------+
+|trailing-whitespace           |58          |
++------------------------------+------------+
+|line-too-long                 |37          |
++------------------------------+------------+
+|missing-docstring             |24          |
++------------------------------+------------+
+|duplicate-code                |10          |
++------------------------------+------------+
+|no-self-use                   |4           |
++------------------------------+------------+
+|trailing-newlines             |3           |
++------------------------------+------------+
+|too-many-nested-blocks        |3           |
++------------------------------+------------+
+|too-many-locals               |3           |
++------------------------------+------------+
+|too-many-branches             |3           |
++------------------------------+------------+
+|syntax-error                  |3           |
++------------------------------+------------+
+|redefined-argument-from-local |3           |
++------------------------------+------------+
+|unused-variable               |1           |
++------------------------------+------------+
+|no-value-for-parameter        |1           |
++------------------------------+------------+
+|consider-using-enumerate      |1           |
++------------------------------+------------+
+
+
+
+
+------------------------------------
+Your code has been rated at -0.67/10
+
