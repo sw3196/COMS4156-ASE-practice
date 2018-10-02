@@ -1,0 +1,394 @@
+************* Module findpubg.settings
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module findpubg.urls
+C: 18, 0: Wrong hanging indentation (add 3 spaces).
+	url(r'^user_board/sort_by_date_joined/$', core_views.sort_search_by_date_joined, name='sort_by_date_joined'),
+ ^  | (bad-continuation)
+C: 18, 0: Line too long (110/100) (line-too-long)
+C: 19, 0: Wrong hanging indentation (add 3 spaces).
+	url(r'^user_board/sort_by_region_preference/$', core_views.sort_by_region_preference, name='sort_by_region_preference'),
+ ^  | (bad-continuation)
+C: 19, 0: Line too long (121/100) (line-too-long)
+C: 20, 0: Wrong hanging indentation (add 3 spaces).
+	url(r'^user_board/sort_by_team_preference/$', core_views.sort_by_team_preference, name='sort_by_team_preference'),
+ ^  | (bad-continuation)
+C: 20, 0: Line too long (115/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'django.conf.urls' (import-error)
+E:  2, 0: Unable to import 'django.contrib.auth' (import-error)
+E:  3, 0: Unable to import 'django.conf' (import-error)
+E:  4, 0: Unable to import 'django.conf.urls.static' (import-error)
+C:  9, 0: Constant name "urlpatterns" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  1, 0: Unused include imported from django.conf.urls (unused-import)
+************* Module findpubg.wsgi
+E: 12, 0: Unable to import 'django.core.wsgi' (import-error)
+C: 16, 0: Constant name "application" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module findpubg.core.apps
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'django.apps' (import-error)
+C:  6, 0: Missing class docstring (missing-docstring)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module findpubg.core.forms
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'django' (import-error)
+E:  2, 0: Unable to import 'django.contrib.auth.forms' (import-error)
+E:  3, 0: Unable to import 'django.contrib.auth.models' (import-error)
+C: 23, 0: Missing class docstring (missing-docstring)
+C: 26, 4: Missing class docstring (missing-docstring)
+C: 26, 4: Old-style class defined. (old-style-class)
+W: 26, 4: Class has no __init__ method (no-init)
+R: 26, 4: Too few public methods (0/2) (too-few-public-methods)
+R: 23, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 30, 0: Missing class docstring (missing-docstring)
+C: 31, 4: Missing class docstring (missing-docstring)
+C: 31, 4: Old-style class defined. (old-style-class)
+W: 31, 4: Class has no __init__ method (no-init)
+R: 31, 4: Too few public methods (0/2) (too-few-public-methods)
+R: 30, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module findpubg.core.models
+C: 34, 0: Trailing whitespace (trailing-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'django.db' (import-error)
+E:  4, 0: Unable to import 'django.contrib.auth.models' (import-error)
+E:  5, 0: Unable to import 'django.db.models.signals' (import-error)
+E:  6, 0: Unable to import 'django.dispatch' (import-error)
+E:  7, 0: Unable to import 'django.utils' (import-error)
+C: 26, 0: Missing class docstring (missing-docstring)
+R: 26, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 36, 0: Missing class docstring (missing-docstring)
+R: 36, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 44, 0: Missing function docstring (missing-docstring)
+W: 44,24: Unused argument 'sender' (unused-argument)
+W: 44, 0: Unused argument 'kwargs' (unused-argument)
+************* Module findpubg.core.tests
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'django.test' (import-error)
+W:  1, 0: Unused TestCase imported from django.test (unused-import)
+************* Module findpubg.core.views
+W: 19, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 20, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 21, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 22, 0: Wrong hanging indentation (add 10 spaces).
+		'lst' : lst,
+  ^         | (bad-continuation)
+C: 23, 0: Wrong hanging indentation.
+	}
+ ^      |   | (bad-continuation)
+W: 24, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 28, 0: No space allowed around keyword argument assignment
+    form = Search.objects.get(user_id = user_id)
+                                      ^ (bad-whitespace)
+C: 30, 0: Wrong hanging indentation (add 6 spaces).
+		'form' : form,
+  ^     | (bad-continuation)
+C: 31, 0: Wrong hanging indentation.
+	}
+ ^  |   | (bad-continuation)
+C: 32, 0: Exactly one space required after comma
+    return HttpResponse(template.render(form,request))
+                                            ^ (bad-whitespace)
+C: 40, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 41, 0: No space allowed around keyword argument assignment
+                old_entries = Search.objects.filter(user_id = search_obj.user_id).delete()
+                                                            ^ (bad-whitespace)
+W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 51, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 52, 0: Wrong hanging indentation (add 10 spaces).
+		'lst' : most_recent_joined,
+  ^         | (bad-continuation)
+C: 53, 0: Wrong hanging indentation.
+	}
+ ^      |   | (bad-continuation)
+W: 54, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 57, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 58, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 59, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 60, 0: Wrong hanging indentation (add 10 spaces).
+		'lst' : ordered_team_preferences,
+  ^         | (bad-continuation)
+C: 61, 0: Wrong hanging indentation.
+	}
+ ^      |   | (bad-continuation)
+W: 62, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 65, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 66, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 67, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 68, 0: Wrong hanging indentation (add 10 spaces).
+		'lst' : ordered_region_preferences,
+  ^         | (bad-continuation)
+C: 69, 0: Wrong hanging indentation.
+	}
+ ^      |   | (bad-continuation)
+W: 70, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'django.contrib.auth.decorators' (import-error)
+E:  2, 0: Unable to import 'django.contrib.auth' (import-error)
+E:  3, 0: Unable to import 'django.shortcuts' (import-error)
+E:  4, 0: Unable to import 'django.template' (import-error)
+E:  5, 0: Unable to import 'django.http' (import-error)
+C: 11, 0: Missing function docstring (missing-docstring)
+C: 15, 0: Missing function docstring (missing-docstring)
+C: 18, 0: Missing function docstring (missing-docstring)
+C: 26, 0: Missing function docstring (missing-docstring)
+C: 34, 0: Missing function docstring (missing-docstring)
+W: 41,16: Unused variable 'old_entries' (unused-variable)
+C: 48, 0: Missing function docstring (missing-docstring)
+C: 56, 0: Missing function docstring (missing-docstring)
+C: 64, 0: Missing function docstring (missing-docstring)
+C: 72, 0: Missing function docstring (missing-docstring)
+W:  1, 0: Unused login_required imported from django.contrib.auth.decorators (unused-import)
+************* Module findpubg.core.migrations.0001_initial
+C: 22, 0: Line too long (114/100) (line-too-long)
+C: 26, 0: Line too long (121/100) (line-too-long)
+C:  1, 0: Module name "0001_initial" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'django.conf' (import-error)
+E:  6, 0: Unable to import 'django.db' (import-error)
+E:  7, 0: Unable to import 'django.db.models.deletion' (import-error)
+C: 10, 0: Missing class docstring (missing-docstring)
+R: 10, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module findpubg.core.migrations.0002_search
+C: 20, 0: Line too long (114/100) (line-too-long)
+C: 23, 0: Line too long (172/100) (line-too-long)
+C: 24, 0: Line too long (235/100) (line-too-long)
+C: 32, 0: Wrong hanging indentation (add 1 space).
+               ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+               ^| (bad-continuation)
+C: 32, 0: Line too long (113/100) (line-too-long)
+C: 33, 0: Wrong hanging indentation (add 1 space).
+               ('bio', models.TextField(blank=True, max_length=500)),
+               ^| (bad-continuation)
+C: 34, 0: Wrong hanging indentation (add 1 space).
+               ('location', models.CharField(blank=True, max_length=30)),
+               ^| (bad-continuation)
+C: 35, 0: Wrong hanging indentation (add 1 space).
+               ('birth_date', models.DateField(blank=True, null=True)),
+               ^| (bad-continuation)
+C: 36, 0: Wrong hanging indentation (add 1 space).
+               ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+               ^| (bad-continuation)
+C: 36, 0: Line too long (120/100) (line-too-long)
+C: 37, 0: Wrong hanging indentation.
+           ],
+           ^|   | (bad-continuation)
+C:  1, 0: Module name "0002_search" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: Unable to import 'django.conf' (import-error)
+E:  6, 0: Unable to import 'django.db' (import-error)
+E:  7, 0: Unable to import 'django.db.models.deletion' (import-error)
+C: 10, 0: Missing class docstring (missing-docstring)
+R: 10, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module findpubg.core.migrations.0003_search_date_joined
+C: 20, 0: Line too long (139/100) (line-too-long)
+C:  1, 0: Module name "0003_search_date_joined" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  6, 0: Unable to import 'django.db' (import-error)
+E:  7, 0: Unable to import 'django.utils.timezone' (import-error)
+C: 10, 0: Missing class docstring (missing-docstring)
+R: 10, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module findpubg.core.migrations.__init__
+R:  1, 0: Similar lines in 2 files
+==findpubg.core.forms:5
+==findpubg.core.models:8
+TEAM_CHOICES = (
+    ('DUOS', 'DUOS'),
+    ('SQUADS', 'SQUADS'),
+    ('DUOS FPS', 'DUOS FPS'),
+    ('SQUADS FPS', 'SQUADS FPS')
+)
+
+REGION_CHOICES = (
+    ('NA', 'North America'),
+    ('EU', 'Europe'),
+    ('AS', 'Asian'),
+    ('OC', 'Oceania'),
+    ('SA', 'South America'),
+    ('SEA', 'South East Asia'),
+    ('KR/JP', 'Korea/Japan')
+)
+ (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==findpubg.core.migrations.0001_initial:19
+==findpubg.core.migrations.0002_search:29
+            name='Profile',
+            fields=[
+               ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+               ('bio', models.TextField(blank=True, max_length=500)),
+               ('location', models.CharField(blank=True, max_length=30)),
+               ('birth_date', models.DateField(blank=True, null=True)),
+               ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+           ],
+        ), (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==findpubg.core.migrations.0001_initial:2
+==findpubg.core.migrations.0002_search:2
+from __future__ import unicode_literals
+
+from django.conf import settings
+from django.db import migrations, models
+import django.db.models.deletion
+
+
+class Migration(migrations.Migration):
+ (duplicate-code)
+
+
+Report
+======
+161 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |14     |14         |=          |28.57       |21.43    |
++---------+-------+-----------+-----------+------------+---------+
+|class    |10     |10         |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |10     |10         |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    findpubg 
+      \-core 
+        \-forms (findpubg.core.views)
+        \-models (findpubg.core.forms,findpubg.core.views)
+        \-views (findpubg.urls)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |271    |64.99 |271      |=          |
++----------+-------+------+---------+-----------+
+|docstring |39     |9.35  |39       |=          |
++----------+-------+------+---------+-----------+
+|comment   |21     |5.04  |21       |=          |
++----------+-------+------+---------+-----------+
+|empty     |86     |20.62 |86       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |35    |35       |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |8.685 |8.685    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |72     |72       |=          |
++-----------+-------+---------+-----------+
+|refactor   |13     |13       |=          |
++-----------+-------+---------+-----------+
+|warning    |24     |24       |=          |
++-----------+-------+---------+-----------+
+|error      |28     |28       |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-------------------------------------------------+------+--------+---------+-----------+
+|module                                           |error |warning |refactor |convention |
++=================================================+======+========+=========+===========+
+|findpubg.core.views                              |17.86 |75.00   |0.00     |33.33      |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.models                             |17.86 |8.33    |15.38    |6.94       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.urls                                    |14.29 |4.17    |0.00     |11.11      |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.forms                              |10.71 |8.33    |30.77    |9.72       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.migrations.0002_search             |10.71 |0.00    |7.69     |19.44      |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.migrations.0001_initial            |10.71 |0.00    |7.69     |6.94       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.migrations.0003_search_date_joined |7.14  |0.00    |7.69     |5.56       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.tests                              |3.57  |4.17    |0.00     |1.39       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.apps                               |3.57  |0.00    |7.69     |2.78       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.wsgi                                    |3.57  |0.00    |0.00     |1.39       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.core.migrations.__init__                |0.00  |0.00    |23.08    |0.00       |
++-------------------------------------------------+------+--------+---------+-----------+
+|findpubg.settings                                |0.00  |0.00    |0.00     |1.39       |
++-------------------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|missing-docstring      |30          |
++-----------------------+------------+
+|import-error           |28          |
++-----------------------+------------+
+|bad-continuation       |19          |
++-----------------------+------------+
+|mixed-indentation      |16          |
++-----------------------+------------+
+|line-too-long          |11          |
++-----------------------+------------+
+|too-few-public-methods |10          |
++-----------------------+------------+
+|invalid-name           |5           |
++-----------------------+------------+
+|unused-import          |3           |
++-----------------------+------------+
+|duplicate-code         |3           |
++-----------------------+------------+
+|bad-whitespace         |3           |
++-----------------------+------------+
+|unused-argument        |2           |
++-----------------------+------------+
+|old-style-class        |2           |
++-----------------------+------------+
+|no-init                |2           |
++-----------------------+------------+
+|unused-variable        |1           |
++-----------------------+------------+
+|trailing-whitespace    |1           |
++-----------------------+------------+
+|superfluous-parens     |1           |
++-----------------------+------------+
+
+
+
+
+--------------------------------------------------------------------
+Your code has been rated at -5.47/10 (previous run: -5.47/10, +0.00)
+
